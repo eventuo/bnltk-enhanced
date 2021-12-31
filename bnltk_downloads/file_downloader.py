@@ -8,3 +8,10 @@ import platform
 import getpass
 import os
 import sys
+
+
+class DataFiles:
+	def __init__(self):
+		pass
+
+	def downloader(self, url, 
