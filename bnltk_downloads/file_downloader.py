@@ -19,4 +19,6 @@ class DataFiles:
 				    # open in binary mode
 		    with open(file_name, "wb") as file:
 		        # get request
-		        print("Downloa
+		        print("Downloading....../"+tag)
+		        response = get(url, stream=True)
+		        # write 
