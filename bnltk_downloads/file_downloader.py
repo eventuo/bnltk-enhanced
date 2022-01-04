@@ -14,4 +14,7 @@ class DataFiles:
 	def __init__(self):
 		pass
 
-	def downloader(self, url, 
+	def downloader(self, url, file_name, tag):
+		if not os.path.exists(file_name):
+				    # open in binary mode
+		    wit
