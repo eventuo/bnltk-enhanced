@@ -17,4 +17,6 @@ class DataFiles:
 	def downloader(self, url, file_name, tag):
 		if not os.path.exists(file_name):
 				    # open in binary mode
-		    wit
+		    with open(file_name, "wb") as file:
+		        # get request
+		        print("Downloa
