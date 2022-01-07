@@ -21,4 +21,8 @@ class DataFiles:
 		        # get request
 		        print("Downloading....../"+tag)
 		        response = get(url, stream=True)
-		        # write 
+		        # write to file
+		        #file.write(response.content)
+		        
+		        
+		        total_length
