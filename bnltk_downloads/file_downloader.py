@@ -25,4 +25,6 @@ class DataFiles:
 		        #file.write(response.content)
 		        
 		        
-		        total_length
+		        total_length = response.headers.get('content-length')
+
+		        if total_length is None: # no content
