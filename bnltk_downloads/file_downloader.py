@@ -32,4 +32,6 @@ class DataFiles:
 		        else:
 		            dl = 0
 		            total_length = int(total_length)
-		            for data in response.iter_content(chunk_si
+		            for data in response.iter_content(chunk_size=4096):
+		                dl += len(data)
+		                file.write(data)
