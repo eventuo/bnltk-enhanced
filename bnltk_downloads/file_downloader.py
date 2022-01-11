@@ -35,3 +35,5 @@ class DataFiles:
 		            for data in response.iter_content(chunk_size=4096):
 		                dl += len(data)
 		                file.write(data)
+		                done = int(50 * dl / total_length)
+		                sys.stdout.write("\r[%s%s]" % ('=' * do
