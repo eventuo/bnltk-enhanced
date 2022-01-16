@@ -39,4 +39,9 @@ class DataFiles:
 		                sys.stdout.write("\r[%s%s]" % ('=' * done, ' ' * (50-done)) )    
 		                sys.stdout.flush()
 		else:
-			pr
+			print(tag + 'is already exists!!')           	
+
+		     
+
+	def download(self):
+		file_name =
