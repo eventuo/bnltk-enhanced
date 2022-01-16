@@ -44,4 +44,8 @@ class DataFiles:
 		     
 
 	def download(self):
-		file_name =
+		file_name = None
+		tag1 = 'bn_tagged_mod.txt'
+		tag2 = 'keras_mlp_bangla.h5'
+
+		if platform.system(
