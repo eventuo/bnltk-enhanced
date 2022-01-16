@@ -48,4 +48,7 @@ class DataFiles:
 		tag1 = 'bn_tagged_mod.txt'
 		tag2 = 'keras_mlp_bangla.h5'
 
-		if platform.system(
+		if platform.system() == 'Windows':
+		    file_name = "C:\\Users\\"+getpass.getuser()
+		else:
+		    file_name = "/U
