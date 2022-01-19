@@ -51,4 +51,6 @@ class DataFiles:
 		if platform.system() == 'Windows':
 		    file_name = "C:\\Users\\"+getpass.getuser()
 		else:
-		    file_name = "/U
+		    file_name = "/Users/"+getpass.getuser()
+		#print(file_name)
+		url = 'https://firebasestorage.goog
