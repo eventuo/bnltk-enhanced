@@ -61,4 +61,7 @@ class DataFiles:
 		    os.makedirs(file_name+'/bnltk_data/pos_data')
 		except OSError:  
 		    print ("Creation of the directory failed or exists")
-	
+		else:  
+		    pass   
+
+		self.downloader(url, file_name+'/bnltk_data/pos_data/bn_tagged_mod.txt',
