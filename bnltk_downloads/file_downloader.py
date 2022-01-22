@@ -58,4 +58,7 @@ class DataFiles:
 
 
 		try:  
-		    os.makedirs(file_name+'/bnltk_dat
+		    os.makedirs(file_name+'/bnltk_data/pos_data')
+		except OSError:  
+		    print ("Creation of the directory failed or exists")
+	
