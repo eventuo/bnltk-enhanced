@@ -54,4 +54,8 @@ class DataFiles:
 		    file_name = "/Users/"+getpass.getuser()
 		#print(file_name)
 		url = 'https://firebasestorage.googleapis.com/v0/b/diu-question.appspot.com/o/nlp_data%2Fbn_tagged_mod.txt?alt=media&token=00f383a3-f913-480b-85c1-971dd8fd6dd9'
-		url2 = 'https://firebasestorage.googleapis.com/v0/b/diu-question.appspot.com/o/nlp_data%2Fkeras_mlp_bangla.h5?alt=media&token=4146c1b0-
+		url2 = 'https://firebasestorage.googleapis.com/v0/b/diu-question.appspot.com/o/nlp_data%2Fkeras_mlp_bangla.h5?alt=media&token=4146c1b0-1e4d-4f9e-8b2f-7e3519106a40'
+
+
+		try:  
+		    os.makedirs(file_name+'/bnltk_dat
