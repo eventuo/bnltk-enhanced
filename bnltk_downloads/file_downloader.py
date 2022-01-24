@@ -64,4 +64,6 @@ class DataFiles:
 		else:  
 		    pass   
 
-		self.downloader(url, file_name+'/bnltk_data/pos_data/bn_tagged_mod.txt',
+		self.downloader(url, file_name+'/bnltk_data/pos_data/bn_tagged_mod.txt', tag1) 
+		print()
+		self.downloader(url2, file_name+'/bnltk_data/pos_data/keras_mlp_bangla.h5', ta
