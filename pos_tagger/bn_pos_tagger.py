@@ -16,4 +16,7 @@ import getpass
 import sys
 
 import logging
-logging.ge
+logging.getLogger('tensorflow').disabled = True
+
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] 
