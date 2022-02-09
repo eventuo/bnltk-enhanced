@@ -19,4 +19,12 @@ import logging
 logging.getLogger('tensorflow').disabled = True
 
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
+
+class PosTagger:
+    
+    def __init__(self):
+        pass
+    
+    d
