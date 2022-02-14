@@ -27,4 +27,9 @@ class PosTagger:
     def __init__(self):
         pass
     
-    d
+    dict_vectorizer = None
+    label_encoder = None
+    model = None
+
+    def loader(self):
+       
