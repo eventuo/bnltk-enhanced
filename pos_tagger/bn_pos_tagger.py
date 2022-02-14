@@ -32,4 +32,9 @@ class PosTagger:
     model = None
 
     def loader(self):
-       
+        global dict_vectorizer
+        global label_encoder
+        global model
+
+        model_path = None
+        tagged_
