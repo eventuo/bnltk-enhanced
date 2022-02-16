@@ -40,4 +40,5 @@ class PosTagger:
         tagged_data_path = None
 
         if platform.system() == 'Windows':
-            model_path = "C:\\Use
+            model_path = "C:\\Users\\"+getpass.getuser()+"\\bnltk_data\\pos_data\\keras_mlp_bangla.h5"
+            tagged_data_pat
