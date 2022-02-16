@@ -37,4 +37,7 @@ class PosTagger:
         global model
 
         model_path = None
-        tagged_
+        tagged_data_path = None
+
+        if platform.system() == 'Windows':
+            model_path = "C:\\Use
