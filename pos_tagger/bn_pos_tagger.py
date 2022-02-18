@@ -44,4 +44,7 @@ class PosTagger:
             tagged_data_path = "C:\\Users\\"+getpass.getuser()+"\\bnltk_data\\pos_data\\bn_tagged_mod.txt"
         else:
             model_path = "/Users/"+getpass.getuser()+"/bnltk_data/pos_data/keras_mlp_bangla.h5"
-            tagged_data_path = "/Users/"+getpass.getuser()+"/bnltk_data/pos_dat
+            tagged_data_path = "/Users/"+getpass.getuser()+"/bnltk_data/pos_data/bn_tagged_mod.txt" 
+
+        model = load_model(model_path)
+        model.compile(loss='categ
