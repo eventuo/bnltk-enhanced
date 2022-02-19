@@ -47,4 +47,5 @@ class PosTagger:
             tagged_data_path = "/Users/"+getpass.getuser()+"/bnltk_data/pos_data/bn_tagged_mod.txt" 
 
         model = load_model(model_path)
-        model.compile(loss='categ
+        model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+        #new_file = 'bn_tagged_mod.tx
