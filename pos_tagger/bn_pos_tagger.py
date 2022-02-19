@@ -52,4 +52,9 @@ class PosTagger:
         texts = open(tagged_data_path, encoding='utf8').readlines()
         sentences = []
         for i in texts:
-            sentences.append(self.tuple_m
+            sentences.append(self.tuple_maker(i))
+
+        #print(sentences[0])
+
+
+        train_test_cutoff = int(.80 * len(sentence
