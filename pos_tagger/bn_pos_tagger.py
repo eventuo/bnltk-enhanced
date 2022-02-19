@@ -48,4 +48,6 @@ class PosTagger:
 
         model = load_model(model_path)
         model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-        #new_file = 'bn_tagged_mod.tx
+        #new_file = 'bn_tagged_mod.txt'
+        texts = open(tagged_data_path, encoding='utf8').readlines()
+        sentences 
