@@ -50,4 +50,6 @@ class PosTagger:
         model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
         #new_file = 'bn_tagged_mod.txt'
         texts = open(tagged_data_path, encoding='utf8').readlines()
-        sentences 
+        sentences = []
+        for i in texts:
+            sentences.append(self.tuple_m
