@@ -59,4 +59,7 @@ class PosTagger:
 
         train_test_cutoff = int(.80 * len(sentences)) 
         training_sentences = sentences[:train_test_cutoff]
-        testing_sentences = sen
+        testing_sentences = sentences[train_test_cutoff:]
+
+        train_val_cutoff = int(.25 * len(training_sentences))
+      
