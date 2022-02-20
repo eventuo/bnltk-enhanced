@@ -63,4 +63,6 @@ class PosTagger:
 
         train_val_cutoff = int(.25 * len(training_sentences))
         validation_sentences = training_sentences[:train_val_cutoff]
-        training_sentences
+        training_sentences = training_sentences[train_val_cutoff:]
+
+        X_train, y_train = self.tra
