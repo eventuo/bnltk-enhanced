@@ -57,4 +57,6 @@ class PosTagger:
         #print(sentences[0])
 
 
-        train_test_cutoff = int(.80 * len(sentence
+        train_test_cutoff = int(.80 * len(sentences)) 
+        training_sentences = sentences[:train_test_cutoff]
+        testing_sentences = sen
