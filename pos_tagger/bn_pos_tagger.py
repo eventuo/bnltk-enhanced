@@ -73,4 +73,8 @@ class PosTagger:
         dict_vectorizer.fit(X_train + X_test + X_val)
 
         label_encoder = LabelEncoder()
-        label_encoder.fit(y_
+        label_encoder.fit(y_train + y_test + y_val)
+
+    def tuple_maker(self, line):
+        sentence = []
+        line = line
