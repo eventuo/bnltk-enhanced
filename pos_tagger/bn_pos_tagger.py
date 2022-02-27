@@ -70,4 +70,7 @@ class PosTagger:
         X_val, y_val = self.transform_to_dataset(validation_sentences)
 
         dict_vectorizer = DictVectorizer(sparse=False)
-        dict_vectorizer.fit(X_t
+        dict_vectorizer.fit(X_train + X_test + X_val)
+
+        label_encoder = LabelEncoder()
+        label_encoder.fit(y_
