@@ -77,4 +77,9 @@ class PosTagger:
 
     def tuple_maker(self, line):
         sentence = []
-        line = line
+        line = line.split(' ')
+
+        for x in line:
+
+            if x == '':
+                print("Yess")
