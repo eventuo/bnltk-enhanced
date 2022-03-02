@@ -83,3 +83,7 @@ class PosTagger:
 
             if x == '':
                 print("Yess")
+            else:
+                x = x.split('\\')
+                tup = []
+      
