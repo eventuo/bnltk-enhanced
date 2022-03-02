@@ -88,4 +88,8 @@ class PosTagger:
                 tup = []
                 for y in x:
                     tup.append(y);
-              
+                sentence.append(tuple(tup))    
+
+        return sentence
+
+    def tokenizer(self, input_)
