@@ -86,4 +86,6 @@ class PosTagger:
             else:
                 x = x.split('\\')
                 tup = []
-      
+                for y in x:
+                    tup.append(y);
+              
