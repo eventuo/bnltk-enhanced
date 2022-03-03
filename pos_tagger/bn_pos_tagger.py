@@ -92,4 +92,9 @@ class PosTagger:
 
         return sentence
 
-    def tokenizer(self, input_)
+    def tokenizer(self, input_):
+
+        mod_elements = []
+
+        words = input_.split(' ')
+        words = [x.str
