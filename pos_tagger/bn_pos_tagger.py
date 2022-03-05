@@ -97,4 +97,10 @@ class PosTagger:
         mod_elements = []
 
         words = input_.split(' ')
-        words = [x.str
+        words = [x.strip(' ') for x in words] 
+        words = [i for i in words if i] 
+
+        dict_ = {}
+        dict_['।'] = True
+
+    
