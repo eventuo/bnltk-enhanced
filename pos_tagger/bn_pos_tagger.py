@@ -103,4 +103,8 @@ class PosTagger:
         dict_ = {}
         dict_['।'] = True
 
-    
+        for p in string.punctuation:
+            dict_[p] = True
+
+        for n in words:
+           
