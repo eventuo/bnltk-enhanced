@@ -107,4 +107,6 @@ class PosTagger:
             dict_[p] = True
 
         for n in words:
-           
+            if dict_.get(n[-1]):
+                mod_elements.append(n[:-1])
+ 
