@@ -111,4 +111,6 @@ class PosTagger:
                 mod_elements.append(n[:-1])
                 mod_elements.append(n[-1])
             else:
-                mod_elements
+                mod_elements.append(n)
+        mod_elements = [i for i in mod_elements if i]
+        return mod_el
