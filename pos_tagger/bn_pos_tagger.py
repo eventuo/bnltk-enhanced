@@ -115,4 +115,8 @@ class PosTagger:
         mod_elements = [i for i in mod_elements if i]
         return mod_elements     
 
-    def add_basic_features(self, sentence_terms, ind
+    def add_basic_features(self, sentence_terms, index):
+
+        term = sentence_terms[index]
+        return {
+            'nb_terms': l
