@@ -119,4 +119,6 @@ class PosTagger:
 
         term = sentence_terms[index]
         return {
-            'nb_terms': l
+            'nb_terms': len(sentence_terms),
+            'term': term,
+            'is_first': index == 0
