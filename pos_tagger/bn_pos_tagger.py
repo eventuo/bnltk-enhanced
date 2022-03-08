@@ -113,4 +113,6 @@ class PosTagger:
             else:
                 mod_elements.append(n)
         mod_elements = [i for i in mod_elements if i]
-        return mod_el
+        return mod_elements     
+
+    def add_basic_features(self, sentence_terms, ind
