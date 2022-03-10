@@ -123,4 +123,7 @@ class PosTagger:
             'term': term,
             'is_first': index == 0,
             'is_last': index == len(sentence_terms) - 1,
-            'prefix-1': term[
+            'prefix-1': term[0],
+            'prefix-2': term[:2],
+            'prefix-3': term[:3],
+         
