@@ -121,4 +121,6 @@ class PosTagger:
         return {
             'nb_terms': len(sentence_terms),
             'term': term,
-            'is_first': index == 0
+            'is_first': index == 0,
+            'is_last': index == len(sentence_terms) - 1,
+            'prefix-1': term[
