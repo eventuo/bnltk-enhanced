@@ -130,4 +130,7 @@ class PosTagger:
             'suffix-2': term[-2:],
             'suffix-3': term[-3:],
             'prev_word': '' if index == 0 else sentence_terms[index - 1],
-            'next_wo
+            'next_word': '' if index == len(sentence_terms) - 1 else sentence_terms[index + 1]
+        }   
+
+    
