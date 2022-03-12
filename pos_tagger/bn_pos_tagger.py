@@ -133,4 +133,7 @@ class PosTagger:
             'next_word': '' if index == len(sentence_terms) - 1 else sentence_terms[index + 1]
         }   
 
-    
+    def training_transform_to_dataset(self, tagged_sentences):
+        X = []
+
+        #print(le
