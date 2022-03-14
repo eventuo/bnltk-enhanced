@@ -136,4 +136,7 @@ class PosTagger:
     def training_transform_to_dataset(self, tagged_sentences):
         X = []
 
-        #print(le
+        #print(len(tagged_sentences))
+
+        for pos_tags in tagged_sentences:
+            #print(pos_tags
