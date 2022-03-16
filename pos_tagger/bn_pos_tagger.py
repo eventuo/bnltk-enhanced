@@ -143,4 +143,7 @@ class PosTagger:
             for index in range(len(pos_tags)):
                 # Add basic NLP features for each sentence term
                 X.append(self.add_basic_features(pos_tags, index))
-   
+        return X
+
+    def untag(self, tagged_sentence):
+        return [w for w, _ in tag
