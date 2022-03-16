@@ -149,4 +149,7 @@ class PosTagger:
         return [w for w, _ in tagged_sentence]
 
     def transform_to_dataset(self, tagged_sentences):
-       
+        X, y = [], []
+
+        for pos_tags in tagged_sentences:
+            for index, (term, class_
