@@ -146,4 +146,7 @@ class PosTagger:
         return X
 
     def untag(self, tagged_sentence):
-        return [w for w, _ in tag
+        return [w for w, _ in tagged_sentence]
+
+    def transform_to_dataset(self, tagged_sentences):
+       
