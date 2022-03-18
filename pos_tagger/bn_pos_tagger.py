@@ -152,4 +152,6 @@ class PosTagger:
         X, y = [], []
 
         for pos_tags in tagged_sentences:
-            for index, (term, class_
+            for index, (term, class_) in enumerate(pos_tags):
+                # Add basic NLP features for each sentence term
+          
