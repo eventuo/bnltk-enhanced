@@ -162,4 +162,6 @@ class PosTagger:
 
         #elements = sentences.split(' ')
         mod_elements = self.tokenizer(sentences)
-        #print(mod_elemen
+        #print(mod_elements)
+        t_list = self.training_transform_to_dataset([mod_elements])
+        
