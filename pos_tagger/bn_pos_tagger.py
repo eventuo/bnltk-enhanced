@@ -160,4 +160,6 @@ class PosTagger:
 
     def tagger(self, sentences):
 
-        #elements = sentenc
+        #elements = sentences.split(' ')
+        mod_elements = self.tokenizer(sentences)
+        #print(mod_elemen
