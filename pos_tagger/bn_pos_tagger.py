@@ -164,4 +164,6 @@ class PosTagger:
         mod_elements = self.tokenizer(sentences)
         #print(mod_elements)
         t_list = self.training_transform_to_dataset([mod_elements])
-        
+        t_list = dict_vectorizer.transform(t_list)
+        predictions = model.predict(t_list)
+   
