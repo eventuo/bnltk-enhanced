@@ -171,4 +171,8 @@ class PosTagger:
             list_.append(np.argmax(predictions[x]))
         list_  = label_encoder.inverse_transform(list_)  
 
-        return list(zip(mod_ele
+        return list(zip(mod_elements, list_))
+'''    
+tt = PosTagger()    
+tt.loader()
+sentences = 'দুশ্চিন্তার কোন কারণ
