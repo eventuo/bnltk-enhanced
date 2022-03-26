@@ -175,4 +175,6 @@ class PosTagger:
 '''    
 tt = PosTagger()    
 tt.loader()
-sentences = 'দুশ্চিন্তার কোন কারণ
+sentences = 'দুশ্চিন্তার কোন কারণই নাই'
+print(tt.tagger(sentences))  
+'''      
