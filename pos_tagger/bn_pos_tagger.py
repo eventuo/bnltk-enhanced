@@ -166,4 +166,6 @@ class PosTagger:
         t_list = self.training_transform_to_dataset([mod_elements])
         t_list = dict_vectorizer.transform(t_list)
         predictions = model.predict(t_list)
-   
+        list_ = []
+        for x in range(0, len(predictions)):
+            list_.append(np.argmax
