@@ -168,4 +168,7 @@ class PosTagger:
         predictions = model.predict(t_list)
         list_ = []
         for x in range(0, len(predictions)):
-            list_.append(np.argmax
+            list_.append(np.argmax(predictions[x]))
+        list_  = label_encoder.inverse_transform(list_)  
+
+        return list(zip(mod_ele
