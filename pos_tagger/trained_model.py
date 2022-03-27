@@ -1,4 +1,9 @@
 # Bangla Natural Language Toolkit: Parts of Speech Tagger
 #
 # Copyright (C) 2019 BNLTK Project
-# Author: Ashraf Hos
+# Author: Ashraf Hossain <asrafhossain197@gmail.com>
+
+
+from keras.models import load_model
+from string import punctuation
+impor
