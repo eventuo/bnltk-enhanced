@@ -8,4 +8,11 @@ from keras.models import load_model
 from string import punctuation
 import numpy as np
 from sklearn.feature_extraction import DictVectorizer
-from sklearn.prepr
+from sklearn.preprocessing import LabelEncoder
+import platform
+import getpass
+import os
+import sys
+
+import logging
+logging
