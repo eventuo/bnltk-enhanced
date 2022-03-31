@@ -15,4 +15,7 @@ import os
 import sys
 
 import logging
-logging
+logging.getLogger('tensorflow').disabled = True
+
+import os
+os.environ['TF_CPP_MIN_LOG_LEVE
