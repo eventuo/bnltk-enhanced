@@ -33,3 +33,8 @@ class Loader:
 	def __init__(self):
 		self.texts = ''
 		self.sentences = []
+		self.model = None
+		self.model_path = None
+		self.tagged_data_path = None
+
+	def path_generat
