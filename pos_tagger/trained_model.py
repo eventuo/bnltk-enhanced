@@ -28,4 +28,8 @@ class Loader:
 	model = ''
 
 	model_path = None
-	tag
+	tagged_data_path = None
+
+	def __init__(self):
+		self.texts = ''
+		self.sentences = []
