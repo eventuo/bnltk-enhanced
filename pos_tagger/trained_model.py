@@ -42,4 +42,4 @@ class Loader:
 		isFiles_exist = True
 
 		if platform.system() == 'Windows':
-		    self.mod
+		    self.model_path = "C:\\Users\\"+getpass.getuser()+"\\bnltk_data\\pos_data\\keras_mlp_bangla.h5
