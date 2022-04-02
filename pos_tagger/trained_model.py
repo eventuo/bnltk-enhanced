@@ -42,4 +42,5 @@ class Loader:
 		isFiles_exist = True
 
 		if platform.system() == 'Windows':
-		    self.model_path = "C:\\Users\\"+getpass.getuser()+"\\bnltk_data\\pos_data\\keras_mlp_bangla.h5
+		    self.model_path = "C:\\Users\\"+getpass.getuser()+"\\bnltk_data\\pos_data\\keras_mlp_bangla.h5"
+		    self.tagged_data_path = "C:\\Users\\"+getpass.getuser()+"\\bnltk_data\\pos_da
