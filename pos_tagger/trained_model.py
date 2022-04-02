@@ -37,4 +37,9 @@ class Loader:
 		self.model_path = None
 		self.tagged_data_path = None
 
-	def path_generat
+	def path_generator(self):
+
+		isFiles_exist = True
+
+		if platform.system() == 'Windows':
+		    self.mod
