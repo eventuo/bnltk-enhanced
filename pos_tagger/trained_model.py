@@ -46,4 +46,9 @@ class Loader:
 		    self.tagged_data_path = "C:\\Users\\"+getpass.getuser()+"\\bnltk_data\\pos_data\\bn_tagged_mod.txt"
 		else:
 		    self.model_path = "/Users/"+getpass.getuser()+"/bnltk_data/pos_data/keras_mlp_bangla.h5"
-		    self.tagged_data_path = "/Users/"+getpass.getuse
+		    self.tagged_data_path = "/Users/"+getpass.getuser()+"/bnltk_data/pos_data/bn_tagged_mod.txt" 
+			
+
+	def load_keras_model(self):
+
+	
