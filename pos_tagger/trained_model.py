@@ -51,4 +51,7 @@ class Loader:
 
 	def load_keras_model(self):
 
-	
+		self.path_generator()
+
+		self.model = load_model(self.model_path)
+		self.model.compile(loss='categori
