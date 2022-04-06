@@ -54,4 +54,7 @@ class Loader:
 		self.path_generator()
 
 		self.model = load_model(self.model_path)
-		self.model.compile(loss='categori
+		self.model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+		self.load_corpus()
+		self.data_manipulator
