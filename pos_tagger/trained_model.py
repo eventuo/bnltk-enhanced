@@ -61,4 +61,6 @@ class Loader:
 
 	def load_corpus(self):
 		#file = '/Users/ashrafhossain/bnltk_data/pos_data/bn_tagged_mod.txt'
-		
+		self.texts = open(self.tagged_data_path, encoding="utf8").readlines()
+
+	def tuple_maker
