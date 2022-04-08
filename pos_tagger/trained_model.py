@@ -63,4 +63,9 @@ class Loader:
 		#file = '/Users/ashrafhossain/bnltk_data/pos_data/bn_tagged_mod.txt'
 		self.texts = open(self.tagged_data_path, encoding="utf8").readlines()
 
-	def tuple_maker
+	def tuple_maker(self, line):
+	    line = line.split(' ')
+	    sentence = []
+	    
+	    for x in line:
+	        
