@@ -57,4 +57,8 @@ class Loader:
 		self.model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 		self.load_corpus()
-		self.data_manipulator
+		self.data_manipulator()
+
+	def load_corpus(self):
+		#file = '/Users/ashrafhossain/bnltk_data/pos_data/bn_tagged_mod.txt'
+		
