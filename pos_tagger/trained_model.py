@@ -69,3 +69,8 @@ class Loader:
 	    
 	    for x in line:
 	        
+	        if x == '':
+	            continue
+	        else:
+	            x = x.split('\\')
+	       
