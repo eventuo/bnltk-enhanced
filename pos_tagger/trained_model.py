@@ -73,4 +73,7 @@ class Loader:
 	            continue
 	        else:
 	            x = x.split('\\')
-	       
+	            tup = []
+	            for y in x:
+	                tup.append(y);
+	            sen
