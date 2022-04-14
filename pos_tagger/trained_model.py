@@ -80,4 +80,10 @@ class Loader:
 	    return sentence            
 
 	def data_manipulator(self):
-		for i i
+		for i in self.texts:
+			self.sentences.append(self.tuple_maker(i))
+
+
+class BanglaPosTagger:
+
+	sent
