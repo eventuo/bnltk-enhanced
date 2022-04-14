@@ -76,4 +76,8 @@ class Loader:
 	            tup = []
 	            for y in x:
 	                tup.append(y);
-	            sen
+	            sentence.append(tuple(tup))
+	    return sentence            
+
+	def data_manipulator(self):
+		for i i
