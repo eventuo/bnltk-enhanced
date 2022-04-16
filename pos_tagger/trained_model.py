@@ -86,4 +86,10 @@ class Loader:
 
 class BanglaPosTagger:
 
-	sent
+	sentences = []
+	mod_elements = []
+	model = ''
+	dict_vectorizer = None
+	label_encoder = None
+
+
