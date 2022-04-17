@@ -93,3 +93,8 @@ class BanglaPosTagger:
 	label_encoder = None
 
 
+	def __init__(self):
+		self.sentences = []
+		self.mod_elements = []
+		self.model = ''
+		self.dic
