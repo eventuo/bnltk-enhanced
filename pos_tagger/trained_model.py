@@ -97,4 +97,7 @@ class BanglaPosTagger:
 		self.sentences = []
 		self.mod_elements = []
 		self.model = ''
-		self.dic
+		self.dict_vectorizer = DictVectorizer(sparse=False)
+		self.label_encoder = LabelEncoder()
+
+	def load(s
