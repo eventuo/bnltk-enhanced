@@ -100,4 +100,8 @@ class BanglaPosTagger:
 		self.dict_vectorizer = DictVectorizer(sparse=False)
 		self.label_encoder = LabelEncoder()
 
-	def load(s
+	def load(self):
+
+		loader_ = Loader()
+		loader_.load_keras_model()
+		self.model = loade
