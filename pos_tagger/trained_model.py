@@ -104,4 +104,7 @@ class BanglaPosTagger:
 
 		loader_ = Loader()
 		loader_.load_keras_model()
-		self.model = loade
+		self.model = loader_.model
+		self.sentences = loader_.sentences
+		#print(self.sentences[0])
+		#print(self.mod
