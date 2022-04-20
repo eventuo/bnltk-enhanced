@@ -114,4 +114,7 @@ class BanglaPosTagger:
 		training_sentences = self.sentences[:train_test_cutoff]
 		testing_sentences = self.sentences[train_test_cutoff:]
 		train_val_cutoff = int(.25 * len(training_sentences))
-		validation_sentences = training_sentences[
+		validation_sentences = training_sentences[:train_val_cutoff]
+		training_sentences = training_sentences[train_val_cutoff:]
+
+		X_t
