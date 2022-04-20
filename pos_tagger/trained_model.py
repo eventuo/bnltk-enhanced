@@ -107,4 +107,8 @@ class BanglaPosTagger:
 		self.model = loader_.model
 		self.sentences = loader_.sentences
 		#print(self.sentences[0])
-		#print(self.mod
+		#print(self.mod_elements)
+
+
+		train_test_cutoff = int(.80 * len(self.sentences))
+		training_sentences = se
