@@ -111,4 +111,6 @@ class BanglaPosTagger:
 
 
 		train_test_cutoff = int(.80 * len(self.sentences))
-		training_sentences = se
+		training_sentences = self.sentences[:train_test_cutoff]
+		testing_sentences = self.sentences[train_test_cutoff:]
+		tra
