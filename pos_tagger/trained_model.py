@@ -118,4 +118,5 @@ class BanglaPosTagger:
 		training_sentences = training_sentences[train_val_cutoff:]
 
 		X_train, y_train = self.transform_to_dataset(training_sentences)
-		X_test, y_test = sel
+		X_test, y_test = self.transform_to_dataset(testing_sentences)
+		X_val, y_val = self.transform_to_dataset(validati
