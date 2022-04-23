@@ -119,4 +119,7 @@ class BanglaPosTagger:
 
 		X_train, y_train = self.transform_to_dataset(training_sentences)
 		X_test, y_test = self.transform_to_dataset(testing_sentences)
-		X_val, y_val = self.transform_to_dataset(validati
+		X_val, y_val = self.transform_to_dataset(validation_sentences)
+
+		#dict_vectorizer = DictVectorizer(sparse=False)
+		self.dict_vectorizer.fit(X_t
