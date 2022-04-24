@@ -122,4 +122,8 @@ class BanglaPosTagger:
 		X_val, y_val = self.transform_to_dataset(validation_sentences)
 
 		#dict_vectorizer = DictVectorizer(sparse=False)
-		self.dict_vectorizer.fit(X_t
+		self.dict_vectorizer.fit(X_train + X_test + X_val)
+		self.label_encoder.fit(y_train + y_test + y_val)	
+			
+
+	def bn_
