@@ -132,4 +132,6 @@ class BanglaPosTagger:
 
 		self.bn_tokenizer(input)
 
-		t_list = self.training
+		t_list = self.training_transform_to_dataset([self.mod_elements])
+		t_list = self.dict_vectorizer.transform(t_list)
+		#prin
