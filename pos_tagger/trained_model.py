@@ -126,4 +126,10 @@ class BanglaPosTagger:
 		self.label_encoder.fit(y_train + y_test + y_val)	
 			
 
-	def bn_
+	def bn_pos_tag(self, input):
+
+		self.load()
+
+		self.bn_tokenizer(input)
+
+		t_list = self.training
