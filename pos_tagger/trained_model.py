@@ -134,4 +134,9 @@ class BanglaPosTagger:
 
 		t_list = self.training_transform_to_dataset([self.mod_elements])
 		t_list = self.dict_vectorizer.transform(t_list)
-		#prin
+		#print(t_list)
+
+		predictions = self.model.predict(t_list)
+
+		list_ = []
+		for x in range(0, len(pr
