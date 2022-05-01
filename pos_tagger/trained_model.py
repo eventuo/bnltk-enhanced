@@ -149,4 +149,9 @@ class BanglaPosTagger:
 		result = []
 
 		for i in range(0, len(labels)):
-			tup = 
+			tup = []
+			tup.append(self.mod_elements[i])
+			tup.append(labels[i])
+			result.append(tuple(tup))
+
+		
