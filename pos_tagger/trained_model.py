@@ -141,4 +141,12 @@ class BanglaPosTagger:
 		list_ = []
 		for x in range(0, len(predictions)):
 			list_.append(np.argmax(predictions[x]))
-		#label_encoder = LabelEncod
+		#label_encoder = LabelEncoder()
+
+
+		labels = self.label_encoder.inverse_transform(list_)
+
+		result = []
+
+		for i in range(0, len(labels)):
+			tup = 
