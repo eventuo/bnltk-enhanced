@@ -139,4 +139,6 @@ class BanglaPosTagger:
 		predictions = self.model.predict(t_list)
 
 		list_ = []
-		for x in range(0, len(pr
+		for x in range(0, len(predictions)):
+			list_.append(np.argmax(predictions[x]))
+		#label_encoder = LabelEncod
