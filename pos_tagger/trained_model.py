@@ -154,4 +154,11 @@ class BanglaPosTagger:
 			tup.append(labels[i])
 			result.append(tuple(tup))
 
-		
+		return result	
+
+
+	def bn_tokenizer(self, input_):
+
+
+		words = input_.split(' ')
+		words = [x.strip(' ')
