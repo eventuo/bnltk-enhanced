@@ -167,4 +167,9 @@ class BanglaPosTagger:
 		dict_ = {}
 		dict_['।'] = True
 
-		for p
+		for p in punctuation:
+			dict_[p] = True
+
+		for n in words:
+			if dict_.get(n[-1]):
+				self
