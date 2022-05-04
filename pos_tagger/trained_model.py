@@ -161,4 +161,10 @@ class BanglaPosTagger:
 
 
 		words = input_.split(' ')
-		words = [x.strip(' ')
+		words = [x.strip(' ') for x in words] 
+		words = [i for i in words if i] 
+
+		dict_ = {}
+		dict_['।'] = True
+
+		for p
