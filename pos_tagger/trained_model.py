@@ -172,4 +172,7 @@ class BanglaPosTagger:
 
 		for n in words:
 			if dict_.get(n[-1]):
-				self
+				self.mod_elements.append(n[:-1])
+				self.mod_elements.append(n[-1])
+			else:
+				self.mod_elements.appe
