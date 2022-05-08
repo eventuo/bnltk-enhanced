@@ -181,4 +181,7 @@ class BanglaPosTagger:
 	def add_basic_features(self, sentence_terms, index):
     
 	    #print(sentence_terms[index])
-	    """ Compute some very basi
+	    """ Compute some very basic word features.
+
+	        :param sentence_terms: [w1, w2, ...] 
+	        :type sentence_ter
