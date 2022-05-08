@@ -178,4 +178,7 @@ class BanglaPosTagger:
 				self.mod_elements.append(n)
 		self.mod_elements = [i for i in self.mod_elements if i]
 
-	def add_basic_features(self
+	def add_basic_features(self, sentence_terms, index):
+    
+	    #print(sentence_terms[index])
+	    """ Compute some very basi
