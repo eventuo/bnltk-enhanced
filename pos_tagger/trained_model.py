@@ -187,3 +187,7 @@ class BanglaPosTagger:
 	        :type sentence_terms: list
 	        :param index: the index of the word 
 	        :type index: int
+	        :return: dict containing features
+	        :rtype: dict
+	    """
+	    term = s
