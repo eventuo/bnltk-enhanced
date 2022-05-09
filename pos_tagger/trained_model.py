@@ -184,4 +184,6 @@ class BanglaPosTagger:
 	    """ Compute some very basic word features.
 
 	        :param sentence_terms: [w1, w2, ...] 
-	        :type sentence_ter
+	        :type sentence_terms: list
+	        :param index: the index of the word 
+	        :type index: int
