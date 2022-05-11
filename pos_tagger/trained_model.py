@@ -190,4 +190,7 @@ class BanglaPosTagger:
 	        :return: dict containing features
 	        :rtype: dict
 	    """
-	    term = s
+	    term = sentence_terms[index]
+	    return {
+	        'nb_terms': len(sentence_terms),
+	        'ter
