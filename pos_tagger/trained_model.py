@@ -198,4 +198,6 @@ class BanglaPosTagger:
 	        'is_last': index == len(sentence_terms) - 1,
 	        'prefix-1': term[0],
 	        'prefix-2': term[:2],
-	 
+	        'prefix-3': term[:3],
+	        'suffix-1': term[-1],
+	        'suffix-2': te
