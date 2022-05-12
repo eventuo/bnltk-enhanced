@@ -195,4 +195,7 @@ class BanglaPosTagger:
 	        'nb_terms': len(sentence_terms),
 	        'term': term,
 	        'is_first': index == 0,
-	        'is_last': index == len(sentenc
+	        'is_last': index == len(sentence_terms) - 1,
+	        'prefix-1': term[0],
+	        'prefix-2': term[:2],
+	 
