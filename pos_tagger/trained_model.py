@@ -193,4 +193,6 @@ class BanglaPosTagger:
 	    term = sentence_terms[index]
 	    return {
 	        'nb_terms': len(sentence_terms),
-	        'ter
+	        'term': term,
+	        'is_first': index == 0,
+	        'is_last': index == len(sentenc
