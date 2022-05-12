@@ -200,4 +200,6 @@ class BanglaPosTagger:
 	        'prefix-2': term[:2],
 	        'prefix-3': term[:3],
 	        'suffix-1': term[-1],
-	        'suffix-2': te
+	        'suffix-2': term[-2:],
+	        'suffix-3': term[-3:],
+	        'prev_word': '' if inde
