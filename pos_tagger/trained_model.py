@@ -208,4 +208,7 @@ class BanglaPosTagger:
 
 	def training_transform_to_dataset(self, tagged_sentences):
 	    """
-	    Split tagged sentences to X and y datasets and append some 
+	    Split tagged sentences to X and y datasets and append some basic features.
+
+	    :param tagged_sentences: a list of POS tagged sentences
+	    :param tagged_sente
