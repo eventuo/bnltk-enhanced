@@ -206,4 +206,6 @@ class BanglaPosTagger:
 	        'next_word': '' if index == len(sentence_terms) - 1 else sentence_terms[index + 1]
 	    }
 
-	def training_transform_to_datas
+	def training_transform_to_dataset(self, tagged_sentences):
+	    """
+	    Split tagged sentences to X and y datasets and append some 
