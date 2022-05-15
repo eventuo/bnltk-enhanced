@@ -216,4 +216,7 @@ class BanglaPosTagger:
 	    """
 	    X = []
 	    
-	    #pr
+	    #print(len(tagged_sentences))
+
+	    for pos_tags in tagged_sentences:
+	        #print(pos_t
