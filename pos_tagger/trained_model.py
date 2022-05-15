@@ -223,4 +223,10 @@ class BanglaPosTagger:
 	        for index in range(len(pos_tags)):
 	            # Add basic NLP features for each sentence term
 	            X.append(self.add_basic_features(pos_tags, index))
-	    return
+	    return X
+
+	def untag(self, tagged_sentence):
+	    """ 
+	    Remove the tag for each tagged term. 
+
+	
