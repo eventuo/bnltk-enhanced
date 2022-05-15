@@ -219,4 +219,6 @@ class BanglaPosTagger:
 	    #print(len(tagged_sentences))
 
 	    for pos_tags in tagged_sentences:
-	        #print(pos_t
+	        #print(pos_tags)
+	        for index in range(len(pos_tags)):
+	            # Add basic NLP features for each senten
