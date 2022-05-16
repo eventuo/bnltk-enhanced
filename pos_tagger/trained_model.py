@@ -239,4 +239,6 @@ class BanglaPosTagger:
 	def transform_to_dataset(self, tagged_sentences):
 	    
 	    """
-	    Split tagged sentences t
+	    Split tagged sentences to X and y datasets and append some basic features.
+
+	    :param tagged_sentences: a list of
