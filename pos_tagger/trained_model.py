@@ -229,4 +229,6 @@ class BanglaPosTagger:
 	    """ 
 	    Remove the tag for each tagged term. 
 
-	
+	    :param tagged_sentence: a POS tagged sentence
+	    :type tagged_sentence: list
+	    :return: a
