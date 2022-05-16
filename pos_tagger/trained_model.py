@@ -236,4 +236,7 @@ class BanglaPosTagger:
 	    """
 	    return [w for w, _ in tagged_sentence]
 
-	def tran
+	def transform_to_dataset(self, tagged_sentences):
+	    
+	    """
+	    Split tagged sentences t
