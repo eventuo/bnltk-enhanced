@@ -231,4 +231,9 @@ class BanglaPosTagger:
 
 	    :param tagged_sentence: a POS tagged sentence
 	    :type tagged_sentence: list
-	    :return: a
+	    :return: a list of tags
+	    :rtype: list of strings
+	    """
+	    return [w for w, _ in tagged_sentence]
+
+	def tran
