@@ -242,4 +242,9 @@ class BanglaPosTagger:
 	    Split tagged sentences to X and y datasets and append some basic features.
 
 	    :param tagged_sentences: a list of POS tagged sentences
-	    :param tagged_sentences: list of list of tuples (t
+	    :param tagged_sentences: list of list of tuples (term_i, tag_i)
+	    :return: 
+	    """
+	    X, y = [], []
+
+	    for pos_tags in tagged_sente
