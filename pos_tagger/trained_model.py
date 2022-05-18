@@ -247,4 +247,6 @@ class BanglaPosTagger:
 	    """
 	    X, y = [], []
 
-	    for pos_tags in tagged_sente
+	    for pos_tags in tagged_sentences:
+	        for index, (term, class_) in enumerate(pos_tags):
+	            # Add basic NLP
