@@ -250,4 +250,10 @@ class BanglaPosTagger:
 	    for pos_tags in tagged_sentences:
 	        for index, (term, class_) in enumerate(pos_tags):
 	            # Add basic NLP features for each sentence term
-	            X.append(self.add_basic_features(self.untag(pos_tags), inde
+	            X.append(self.add_basic_features(self.untag(pos_tags), index))
+	            y.append(class_)
+	    return X, y
+'''
+t = BanglaPosTagger()
+t.load()
+print(t.bn_pos_tag(' আমা
