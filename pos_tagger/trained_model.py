@@ -256,4 +256,6 @@ class BanglaPosTagger:
 '''
 t = BanglaPosTagger()
 t.load()
-print(t.bn_pos_tag(' আমা
+print(t.bn_pos_tag(' আমার সোনার বাংলা । আমি তোমায় ভালোবাসি । '))	
+''' 			
+
