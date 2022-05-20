@@ -15,4 +15,5 @@ class Tokenizers:
 		tokenize_list = []
 		r = re.compile(r'[\s\।{}]+'.format(re.escape(punctuation)))
 		list_ = r.split(input_)
-		list_ 
+		list_ = [i for i in list_ if i] 
+		return list_
