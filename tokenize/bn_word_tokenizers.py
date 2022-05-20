@@ -13,4 +13,6 @@ class Tokenizers:
 
 	def bn_word_tokenizer(self, input_):
 		tokenize_list = []
-		r 
+		r = re.compile(r'[\s\।{}]+'.format(re.escape(punctuation)))
+		list_ = r.split(input_)
+		list_ 
