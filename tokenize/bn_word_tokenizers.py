@@ -8,4 +8,9 @@ import re
 from string import punctuation
 
 class Tokenizers:
-	def __init__(se
+	def __init__(self):
+		pass
+
+	def bn_word_tokenizer(self, input_):
+		tokenize_list = []
+		r 
